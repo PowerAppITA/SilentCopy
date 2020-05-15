@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SilentCopy": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Z:\\emanuel sul mio Mac\\VisualStudioProjects\\Default\\FGPOrteSystem\\FGPOrteSystem\" \"FGPOrteSystem\\packages.config\""
+    }
+  }
+}
