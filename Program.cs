@@ -40,6 +40,11 @@ namespace SilentCopy
                     {
                         if (package.TargetFramework.Contains("net4"))
                         {
+                            if (Directory.Exists(Path.Combine(sourceDir, "net45")))
+                            {
+                                ProcessDirectory(Path.Combine(sourceDir, "net45"), destinationDir);
+                                continue;
+                            }
                             if (Directory.Exists(Path.Combine(sourceDir, "net40")))
                             {
                                 ProcessDirectory(Path.Combine(sourceDir, "net40"), destinationDir);
